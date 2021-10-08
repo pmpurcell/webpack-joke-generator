@@ -3,16 +3,15 @@
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
 import domEvents from './domEvents';
-import jokeData from './helpers/jokeData';
 
 const init = () => {
   document.querySelector('#app').innerHTML = `
   <div id="jokebox">
-  <h4>Welcome to the Jokebox!</h4>
-  <button type="button" class="joke-button" id="jokeButton" class="btn btn-primary">Get Joke</button>
+  <h3>Welcome to the Jokebox!</h3>
+  <button type="button" id="jokeButton" class="btn btn-primary joke-button">Get Joke</button>
   </div>
   `;
-  jokeData().then(domEvents);
+  domEvents();
 };
 
 init();
