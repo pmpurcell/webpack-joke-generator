@@ -15,8 +15,8 @@ Upon start, clicking the button generates a joke and shows the setup.
 Clicking the button a second time shows the punchline.
 Clicking the button a third time restarts the process and generates a new jokes.
 ## Code Snippet
-
+![Screenshot (36)](https://user-images.githubusercontent.com/86082231/136489325-bcae3009-af1d-461a-b7ed-4e721ae20dc7.png)
 ## Screenshot
-
+![Screenshot (37)](https://user-images.githubusercontent.com/86082231/136489372-d2c267db-482c-4013-961b-ae64890d3a35.png)
 ## Authors
 [Madden Purcell](https://github.com/pmpurcell)
