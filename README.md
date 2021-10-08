@@ -1,29 +1,22 @@
-# Joke Generator
+# Jokebox!!
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f7dec2f8-9e14-47c0-bdca-09d7b3ceb71b/deploy-status)](https://app.netlify.com/sites/pmp-joke-generator/deploys)
 
-For this refresher, we are going to build a Joke Generator
+[Try Jokebox](https://pmp-joke-generator.netlify.app/)
 
-DO NOT worry about style until you get the initial functionality together. This is a lightning exercise, so it is meant to be completed in 30 minutes or less.
+## About App
+This app allows a user to generate jokes with the click of a button. The first button click shows the joke setup, while the second button shows the punchline. When you're finished laughing, click the button again for a new joke!
+## Getting Started
+//
+git clone git@github.com:pmpurcell/webpack-joke-generator.git
+cd webpack-joke-generator
+//
+## Features
+Upon start, clicking the button generates a joke and shows the setup.
+Clicking the button a second time shows the punchline.
+Clicking the button a third time restarts the process and generates a new jokes.
+## Code Snippet
 
-Make a quick plan and then execute it.
+## Screenshot
 
-## Acceptance Criteria:
-1. When a user first loads the app, a button appears on the DOM that reads "Get a Joke"
-1. When the user presses the "Get a Joke" button, an API call is made to the joke API and the joke setup appears on the DOM.
-1. When a user presses the "Get a Joke" button, the button text changes to "Get Punchline"
-1. When a user presses the "Get Punchline" button, both the joke setup and delivery are on the DOM along with a button that reads "Get Another Joke"
-1. When the user presses the "Get Another Joke" button, the app starts over from step 3.
-
-## Resources:
-- [API Documentation](https://sv443.net/jokeapi/v2/)
-- Get the Postman Collection
-  - In Postman, select "Import" > "Link"
-  - Copy/Paste this link into the input: `https://www.getpostman.com/collections/548ed97710101a76aa64`
-  - Click "Import"
-
-## Stretch
-DO NOT complete any stretch goals until the functionality of the application is completed.
-- Styling the app
-- [View the mock](https://www.figma.com/file/dUTnw5fZfWCB2RCRJpS7Af/JJ-Wireframe-JS?node-id=0%3A1)
-
-
-
+## Authors
+[Madden Purcell](https://github.com/pmpurcell)
