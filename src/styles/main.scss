@@ -1,2 +1,26 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: black;
+}
+
+#jokebox {
+    background-color: slategrey;
+    border: solid white 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-left: 45%;
+    width: 500px;
+}
+
+#jokebox h3 {
+    margin: 10px 0px 20px 0px
+}
+
+#jokebox button{
+    margin-left: 150px;
+    width: 100px;
+}
